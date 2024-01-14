@@ -1,6 +1,6 @@
 {
   "name": "unjs-rekit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a fork from unjs/unkit",
   "repository": "git+https://github.com/meitrix8208/re-kit.git",
   "license": "MIT",
