@@ -1,0 +1,150 @@
+{
+  "name": "unjs-rekit",
+  "version": "0.0.0",
+  "description": "a fork from unjs/unkit",
+  "repository": "git+https://github.com/meitrix8208/re-kit.git",
+  "license": "MIT",
+  "sideEffects": false,
+  "type": "module",
+  "exports": {
+    "./env": {
+      "import": {
+        "types": "./dist/env.d.mts",
+        "default": "./dist/env.mjs"
+      },
+      "require": {
+        "types": "./dist/env.d.cts",
+        "default": "./dist/env.cjs"
+      }
+    },
+    "./fetch": {
+      "import": {
+        "types": "./dist/fetch.d.mts",
+        "default": "./dist/fetch.mjs"
+      },
+      "require": {
+        "types": "./dist/fetch.d.cts",
+        "default": "./dist/fetch.cjs"
+      }
+    },
+    "./string": {
+      "import": {
+        "types": "./dist/string.d.mts",
+        "default": "./dist/string.mjs"
+      },
+      "require": {
+        "types": "./dist/string.d.cts",
+        "default": "./dist/string.cjs"
+      }
+    },
+    "./url": {
+      "import": {
+        "types": "./dist/url.d.mts",
+        "default": "./dist/url.mjs"
+      },
+      "require": {
+        "types": "./dist/url.d.cts",
+        "default": "./dist/url.cjs"
+      }
+    },
+    "./object": {
+      "import": {
+        "types": "./dist/object.d.mts",
+        "default": "./dist/object.mjs"
+      },
+      "require": {
+        "types": "./dist/object.d.cts",
+        "default": "./dist/object.cjs"
+      }
+    },
+    "./crypto": {
+      "import": {
+        "types": "./dist/crypto.d.mts",
+        "default": "./dist/crypto.mjs"
+      },
+      "require": {
+        "types": "./dist/crypto.d.cts",
+        "default": "./dist/crypto.cjs"
+      }
+    },
+    "./https": {
+      "import": {
+        "types": "./dist/https.d.mts",
+        "default": "./dist/https.mjs"
+      },
+      "require": {
+        "types": "./dist/https.d.cts",
+        "default": "./dist/https.cjs"
+      }
+    },
+    "./cli": {
+      "import": {
+        "types": "./dist/cli.d.mts",
+        "default": "./dist/cli.mjs"
+      },
+      "require": {
+        "types": "./dist/cli.d.cts",
+        "default": "./dist/cli.cjs"
+      }
+    },
+    "./regex": {
+      "import": {
+        "types": "./dist/regex.d.mts",
+        "default": "./dist/regex.mjs"
+      },
+      "require": {
+        "types": "./dist/regex.d.cts",
+        "default": "./dist/regex.cjs"
+      }
+    },
+    "./path": {
+      "import": {
+        "types": "./dist/path.d.mts",
+        "default": "./dist/path.mjs"
+      },
+      "require": {
+        "types": "./dist/path.d.cts",
+        "default": "./dist/path.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "prepack": "pnpm build --minify",
+    "lint": "eslint --cache --ext .ts,.js,.mjs,.cjs . && prettier -c src",
+    "lint:fix": "eslint --cache --ext .ts,.js,.mjs,.cjs . --fix && prettier -c src -w",
+    "release": "pnpm lint && pnpm test && changelogen --release && git push --follow-tags && pnpm publish",
+    "test": "tsc --noEmit --skipLibCheck"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.0",
+    "changelogen": "0.5.5",
+    "eslint-config-unjs": "0.2.1",
+    "eslint": "8.56.0",
+    "prettier": "3.2.2",
+    "typescript": "5.3.3",
+    "unbuild": "2.0.0"
+  },
+  "packageManager": "pnpm@8.14.1",
+  "dependencies": {
+    "c12": "1.6.1",
+    "citty": "0.1.5",
+    "consola": "3.2.3",
+    "defu": "6.1.4",
+    "destr": "2.0.2",
+    "express-get-is-https": "0.0.2",
+    "express-get-url": "0.0.3",
+    "h3": "1.10.0",
+    "magic-regexp": "0.7.0",
+    "ofetch": "1.3.3",
+    "ohash": "1.1.3",
+    "pathe": "1.1.2",
+    "scule": "1.2.0",
+    "std-env": "3.7.0",
+    "ufo": "1.3.2",
+    "uncrypto": "0.1.3"
+  }
+}
