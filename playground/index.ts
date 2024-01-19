@@ -1,5 +1,4 @@
+import { destr } from "../dist/object";
 import { consola } from "../dist/cli";
 
-
-
-consola.info("Hello world!");
+consola.info(destr('{ "deno": "yay" }'));

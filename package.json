@@ -57,7 +57,8 @@
       "import": "./dist/path.mjs",
       "require": "./dist/path.cjs",
       "types": "./dist/path.d.ts"
-    }
+    },
+    "./*": "./*"
   },
   "files": [
     "dist"
