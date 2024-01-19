@@ -58,7 +58,7 @@
       "require": "./dist/path.cjs",
       "types": "./dist/path.d.ts"
     },
-    "./*": "./*"
+    "./*": "./dist/*"
   },
   "files": [
     "dist"
