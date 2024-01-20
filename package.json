@@ -7,57 +7,107 @@
   "sideEffects": false,
   "type": "module",
   "exports": {
-    "./package.json": "./package.json",
     "./env": {
-      "import": "./dist/env.mjs",
-      "require": "./dist/env.cjs",
-      "types": "./dist/env.d.ts"
+      "import": {
+        "types": "./dist/env.d.mts",
+        "default": "./dist/env.mjs"
+      },
+      "require": {
+        "types": "./dist/env.d.cts",
+        "default": "./dist/env.cjs"
+      }
     },
     "./fetch": {
-      "import": "./dist/fetch.mjs",
-      "require": "./dist/fetch.cjs",
-      "types": "./dist/fetch.d.ts"
+      "import": {
+        "types": "./dist/fetch.d.mts",
+        "default": "./dist/fetch.mjs"
+      },
+      "require": {
+        "types": "./dist/fetch.d.cts",
+        "default": "./dist/fetch.cjs"
+      }
     },
     "./string": {
-      "import": "./dist/string.mjs",
-      "require": "./dist/string.cjs",
-      "types": "./dist/string.d.ts"
+      "import": {
+        "types": "./dist/string.d.mts",
+        "default": "./dist/string.mjs"
+      },
+      "require": {
+        "types": "./dist/string.d.cts",
+        "default": "./dist/string.cjs"
+      }
     },
     "./url": {
-      "import": "./dist/url.mjs",
-      "require": "./dist/url.cjs",
-      "types": "./dist/url.d.ts"
+      "import": {
+        "types": "./dist/url.d.mts",
+        "default": "./dist/url.mjs"
+      },
+      "require": {
+        "types": "./dist/url.d.cts",
+        "default": "./dist/url.cjs"
+      }
     },
     "./object": {
-      "import": "./dist/object.mjs",
-      "require": "./dist/object.cjs",
-      "types": "./dist/object.d.ts"
+      "import": {
+        "types": "./dist/object.d.mts",
+        "default": "./dist/object.mjs"
+      },
+      "require": {
+        "types": "./dist/object.d.cts",
+        "default": "./dist/object.cjs"
+      }
     },
     "./crypto": {
-      "import": "./dist/crypto.mjs",
-      "require": "./dist/crypto.cjs",
-      "types": "./dist/crypto.d.ts"
+      "import": {
+        "types": "./dist/crypto.d.mts",
+        "default": "./dist/crypto.mjs"
+      },
+      "require": {
+        "types": "./dist/crypto.d.cts",
+        "default": "./dist/crypto.cjs"
+      }
     },
     "./https": {
-      "import": "./dist/https.mjs",
-      "require": "./dist/https.cjs",
-      "types": "./dist/https.d.ts"
+      "import": {
+        "types": "./dist/https.d.mts",
+        "default": "./dist/https.mjs"
+      },
+      "require": {
+        "types": "./dist/https.d.cts",
+        "default": "./dist/https.cjs"
+      }
     },
     "./cli": {
-      "import": "./dist/cli.mjs",
-      "require": "./dist/cli.cjs",
-      "types": "./dist/cli.d.ts"
+      "import": {
+        "types": "./dist/cli.d.mts",
+        "default": "./dist/cli.mjs"
+      },
+      "require": {
+        "types": "./dist/cli.d.cts",
+        "default": "./dist/cli.cjs"
+      }
     },
     "./regex": {
-      "import": "./dist/regex.mjs",
-      "require": "./dist/regex.cjs",
-      "types": "./dist/regex.d.ts"
+      "import": {
+        "types": "./dist/regex.d.mts",
+        "default": "./dist/regex.mjs"
+      },
+      "require": {
+        "types": "./dist/regex.d.cts",
+        "default": "./dist/regex.cjs"
+      }
     },
     "./path": {
-      "import": "./dist/path.mjs",
-      "require": "./dist/path.cjs",
-      "types": "./dist/path.d.ts"
-    }
+      "import": {
+        "types": "./dist/path.d.mts",
+        "default": "./dist/path.mjs"
+      },
+      "require": {
+        "types": "./dist/path.d.cts",
+        "default": "./dist/path.cjs"
+      }
+    },
+    "./*":"./*"
   },
   "files": [
     "dist"
