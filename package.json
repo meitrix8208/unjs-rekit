@@ -2,7 +2,7 @@
   "name": "unjs-rekit",
   "version": "0.0.5",
   "description": "a fork from unjs/unkit",
-  "repository": "git+https://github.com/meitrix8208/re-kit.git",
+  "repository": "git+https://github.com/meitrix8208/unjs-rekit.git",
   "license": "MIT",
   "sideEffects": false,
   "type": "module",
