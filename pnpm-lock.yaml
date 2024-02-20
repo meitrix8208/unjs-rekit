@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   c12:
-    specifier: 1.7.0
-    version: 1.7.0
+    specifier: 1.8.0
+    version: 1.8.0
   citty:
     specifier: 0.1.5
     version: 0.1.5
@@ -1075,8 +1075,8 @@ packages:
       run-applescript: 5.0.0
     dev: true
 
-  /c12@1.7.0:
-    resolution: {integrity: sha512-luqIHUs5S5s4vcSa1TVIGxSC1dH8mBT8cxzRvrlHN/iZs+G/PkxsOb300ODuAdvRzUopyXYqg7cmdOGpcYaxwg==}
+  /c12@1.8.0:
+    resolution: {integrity: sha512-93U6RndoaAwFQPBcS9F/6lwtgBfrWh4695sQ/ChILkbj0C7zOZVptOU3Sxp0I/9xvfW/lzBWD90AXDQz4muSkA==}
     dependencies:
       chokidar: 3.5.3
       defu: 6.1.4
@@ -1145,7 +1145,7 @@ packages:
     resolution: {integrity: sha512-IzgToIJ/R9NhVKmL+PW33ozYkv53bXvufDNUSH3GTKXq1iCHGgkbgbtqEWbo8tnWNnt7nPDpjL8PwSG2iS8RVw==}
     hasBin: true
     dependencies:
-      c12: 1.7.0
+      c12: 1.8.0
       colorette: 2.0.20
       consola: 3.2.3
       convert-gitmoji: 0.1.3
