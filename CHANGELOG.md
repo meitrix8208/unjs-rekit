@@ -1,6 +1,10 @@
 # Changelog
 
 
+## v0.0.6
+
+[compare changes](https://github.com/meitrix8208/unjs-rekit/compare/v0.0.6...v0.0.6)
+
 ### 🏡 Chore
 
 - Apply automated fixes ([0e582f5](https://github.com/meitrix8208/unjs-rekit/commit/0e582f5))
