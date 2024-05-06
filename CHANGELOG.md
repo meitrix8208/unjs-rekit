@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v0.0.7
+
+[compare changes](https://github.com/meitrix8208/unjs-rekit/compare/v0.0.6...v0.0.7)
+
+### 🏡 Chore
+
+- **release:** V0.0.6 ([e50921b](https://github.com/meitrix8208/unjs-rekit/commit/e50921b))
+- Update eslint and typescript dependencies ([541daab](https://github.com/meitrix8208/unjs-rekit/commit/541daab))
+
+### ❤️ Contributors
+
+- Meitrix8208 <maurrod2001@outlook.com>
+
 ## v0.0.6
 
 [compare changes](https://github.com/meitrix8208/unjs-rekit/compare/v0.0.6...v0.0.6)
