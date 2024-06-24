@@ -58,8 +58,8 @@ importers:
         version: 0.1.3
     devDependencies:
       '@types/node':
-        specifier: 20.14.2
-        version: 20.14.2
+        specifier: 20.14.8
+        version: 20.14.8
       changelogen:
         specifier: 0.5.5
         version: 0.5.5
@@ -454,8 +454,8 @@ packages:
   '@types/mdast@3.0.15':
     resolution: {integrity: sha512-LnwD+mUEfxWMa1QpDraczIn6k0Ee3SMicuYSSzS6ZYl2gKS09EClnJYGd8Du6rfc5r/GZEk5o1mRb8TaTj03sQ==}
 
-  '@types/node@20.14.2':
-    resolution: {integrity: sha512-xyu6WAMVwv6AKFLB+e/7ySZVr/0zLCzOa7rSpq6jNwpqOrUbcACDWC+53d4n2QHOnDou0fbIsg8wZu/sxrnI4Q==}
+  '@types/node@20.14.8':
+    resolution: {integrity: sha512-DO+2/jZinXfROG7j7WKFn/3C6nFwxy2lLpgLjEXJz+0XKphZlTLJ14mo8Vfg8X5BWN6XjyESXq+LcYdT7tR3bA==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -2361,7 +2361,7 @@ snapshots:
     dependencies:
       '@types/unist': 2.0.10
 
-  '@types/node@20.14.2':
+  '@types/node@20.14.8':
     dependencies:
       undici-types: 5.26.5
 
