@@ -139,7 +139,7 @@
     "destr": "2.0.3",
     "express-get-is-https": "0.0.2",
     "express-get-url": "0.0.3",
-    "h3": "1.11.1",
+    "h3": "1.12.0",
     "magic-regexp": "0.8.0",
     "ofetch": "1.3.4",
     "ohash": "1.1.3",
