@@ -122,15 +122,15 @@
     "test": "tsc --noEmit --skipLibCheck"
   },
   "devDependencies": {
-    "@types/node": "20.14.8",
+    "@types/node": "20.14.9",
     "changelogen": "0.5.5",
     "eslint-config-unjs": "0.3.2",
-    "eslint": "9.5.0",
+    "eslint": "9.6.0",
     "prettier": "3.3.2",
     "typescript": "5.5.2",
     "unbuild": "2.0.0"
   },
-  "packageManager": "pnpm@9.1.1",
+  "packageManager": "pnpm@9.4.0",
   "dependencies": {
     "c12": "1.11.1",
     "citty": "0.1.6",
