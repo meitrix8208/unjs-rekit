@@ -1,5 +1,19 @@
 # Changelog
 
+## v0.0.8
+
+[compare changes](https://github.com/meitrix8208/unjs-rekit/compare/v0.0.7...v0.0.8)
+
+### 🏡 Chore
+
+- Update eslint and typescript dependencies ([db6af85](https://github.com/meitrix8208/unjs-rekit/commit/db6af85))
+- Update packageManager to pnpm@9.1.1 ([de40b7d](https://github.com/meitrix8208/unjs-rekit/commit/de40b7d))
+- Update eslint and @types/node dependencies ([06cc592](https://github.com/meitrix8208/unjs-rekit/commit/06cc592))
+
+### ❤️ Contributors
+
+- Meitrix8208 <maurrod2001@outlook.com>
+
 ## v0.0.7
 
 [compare changes](https://github.com/meitrix8208/unjs-rekit/compare/v0.0.6...v0.0.7)
