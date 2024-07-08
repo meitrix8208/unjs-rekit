@@ -122,7 +122,7 @@
     "test": "tsc --noEmit --skipLibCheck"
   },
   "devDependencies": {
-    "@types/node": "20.14.9",
+    "@types/node": "20.14.10",
     "changelogen": "0.5.5",
     "eslint-config-unjs": "0.3.2",
     "eslint": "9.6.0",
