@@ -137,7 +137,7 @@
     "consola": "3.2.3",
     "defu": "6.1.4",
     "destr": "2.0.3",
-    "express-get-is-https": "0.0.2",
+    "express-get-is-https": "0.0.3",
     "express-get-url": "0.0.3",
     "h3": "1.12.0",
     "magic-regexp": "0.8.0",

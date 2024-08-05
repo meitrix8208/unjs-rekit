@@ -24,8 +24,8 @@ importers:
         specifier: 2.0.3
         version: 2.0.3
       express-get-is-https:
-        specifier: 0.0.2
-        version: 0.0.2
+        specifier: 0.0.3
+        version: 0.0.3
       express-get-url:
         specifier: 0.0.3
         version: 0.0.3
@@ -940,6 +940,9 @@ packages:
 
   express-get-is-https@0.0.2:
     resolution: {integrity: sha512-Z21MVkgAmom9qWz1fJFyK47/O1aJwuconlX9kgUqN1FaU1+x63YtdEiS/zwQO26wpKV8lLd/AdQmjROBlOHmPg==}
+
+  express-get-is-https@0.0.3:
+    resolution: {integrity: sha512-tSU2mOUv409tz2FIxBbNY3Dq4VtzYMofFaQMsHH+bw2tz7otWIIPobYgB2dGvVlVZAX0KlpRiw8hflZH6mtDFQ==}
 
   express-get-url@0.0.3:
     resolution: {integrity: sha512-g7X4j+JbhP/gm+vuW9/dEaF9+H2o1z9FXq22W668xSMRG+b+YFWg5A8MX/29n/hrG6HF1ELvsm1sKK2WsHpf4w==}
@@ -2986,6 +2989,8 @@ snapshots:
       strip-final-newline: 3.0.0
 
   express-get-is-https@0.0.2: {}
+
+  express-get-is-https@0.0.3: {}
 
   express-get-url@0.0.3:
     dependencies:
