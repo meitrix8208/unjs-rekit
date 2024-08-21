@@ -58,7 +58,9 @@ const regex = createRegExp(
 );
 
 const match = regex.exec("1.2.3");
-consola.info(match?.groups);
+if (match?.groups) {
+  consola.info({ major: match.groups.major, minor: match.groups.minor, patch: match.groups.patch });
+}
 
 const uuid = randomUUID();
 
