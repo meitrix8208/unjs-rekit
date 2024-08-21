@@ -1,5 +1,21 @@
 # Changelog
 
+## v0.0.10
+
+[compare changes](https://github.com/meitrix8208/unjs-rekit/compare/v0.0.8...v0.0.10)
+
+### 🚀 Enhancements
+
+- Add new functions ([7c76d71](https://github.com/meitrix8208/unjs-rekit/commit/7c76d71))
+
+### 🏡 Chore
+
+- Update dependencies and configuration files ([bb3e260](https://github.com/meitrix8208/unjs-rekit/commit/bb3e260))
+
+### ❤️ Contributors
+
+- Meitrix8208 <maurrod2001@outlook.com>
+
 ## v0.0.8
 
 [compare changes](https://github.com/meitrix8208/unjs-rekit/compare/v0.0.7...v0.0.8)

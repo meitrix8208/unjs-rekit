@@ -1,7 +1,7 @@
 {
   "name": "unjs-rekit",
   "type": "module",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "packageManager": "pnpm@9.7.1",
   "description": "a fork from unjs/unkit",
   "license": "MIT",
