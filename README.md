@@ -3,7 +3,7 @@
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 
-This is my package description.
+> a fork from unjs/unkit
 
 ## Usage
 
@@ -12,17 +12,18 @@ Install package:
 ```sh
 # pnpm
 pnpm install unjs-rekit
-
 ```
 
 Import:
 
 ```js
 // ESM
-import { consola } from "unjs-rekit/dist/cli";
+import { consola } from "unjs-rekit/cli";
+```
 
+```js
 // CommonJS
-const { consola } = require("Unjs-rekit/dist/cli");
+const { consola } = require("Unjs-rekit/cli");
 ```
 
 ## Development
