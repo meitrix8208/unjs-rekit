@@ -8,6 +8,7 @@ export default config({
   },
   rules: {
     "antfu/no-import-dist": "off",
+    "antfu/no-top-level-await": "off",
   },
   ignores: ["node_modules", "dist", "coverage"],
 });
