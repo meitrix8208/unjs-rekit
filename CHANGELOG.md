@@ -1,5 +1,23 @@
 # Changelog
 
+## v0.0.11
+
+[compare changes](https://github.com/meitrix8208/unjs-rekit/compare/v0.0.10...v0.0.11)
+
+### 🚀 Enhancements
+
+- Add conditional logging of match groups in index.ts ([04f456d](https://github.com/meitrix8208/unjs-rekit/commit/04f456d))
+
+### 🏡 Chore
+
+- Apply automated fixes ([1c8dd1b](https://github.com/meitrix8208/unjs-rekit/commit/1c8dd1b))
+- Apply automated fixes ([b6fb202](https://github.com/meitrix8208/unjs-rekit/commit/b6fb202))
+- Update eslint.config.mjs and package.json ([89c9392](https://github.com/meitrix8208/unjs-rekit/commit/89c9392))
+
+### ❤️ Contributors
+
+- Meitrix8208 <maurrod2001@outlook.com>
+
 ## v0.0.10
 
 [compare changes](https://github.com/meitrix8208/unjs-rekit/compare/v0.0.8...v0.0.10)
