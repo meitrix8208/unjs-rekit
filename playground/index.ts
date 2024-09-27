@@ -1,15 +1,14 @@
-/* eslint-disable antfu/no-import-dist */
-/* eslint-disable no-console */
-import { defu, destr } from "../dist/object";
+import { consola } from "../dist/cli";
 import { hash, isEqual, randomUUID } from "../dist/crypto";
 import { isWindows, platform, runtimeInfo } from "../dist/env";
-import { consola } from "../dist/cli";
 import { ofetch } from "../dist/fetch";
+import { createApp, eventHandler, toWebHandler } from "../dist/https";
+/* eslint-disable no-console */
+import { defu, destr } from "../dist/object";
 import { join, parse } from "../dist/path";
-import { withBase, withQuery } from "../dist/url";
 import { char, createRegExp, digit, maybe, oneOrMore } from "../dist/regex";
 import { kebabCase } from "../dist/string";
-import { createApp, eventHandler, toWebHandler } from "../dist/https";
+import { withBase, withQuery } from "../dist/url";
 
 let runtime = destr<{ deno: string; node: string; bun: string }>("{ \"deno\": \"perl\" }");
 const other = { deno: "NO-RUST", node: "c++", bun: "zig" };
