@@ -2,6 +2,7 @@
   "name": "unjs-rekit",
   "type": "module",
   "version": "0.0.12",
+  "packageManager": "pnpm@9.15.4",
   "description": "a fork from unjs/unkit",
   "license": "MIT",
   "repository": "git+https://github.com/meitrix8208/unjs-rekit.git",
