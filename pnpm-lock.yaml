@@ -33,8 +33,8 @@ importers:
         specifier: 1.4.1
         version: 1.4.1
       ohash:
-        specifier: 2.0.10
-        version: 2.0.10
+        specifier: 2.0.11
+        version: 2.0.11
       pathe:
         specifier: 2.0.3
         version: 2.0.3
@@ -1825,8 +1825,8 @@ packages:
   ofetch@1.4.1:
     resolution: {integrity: sha512-QZj2DfGplQAr2oj9KzceK9Hwz6Whxazmn85yYeVuS3u9XTMOGMRx0kO95MQ+vLsj/S/NwBDMMLU5hpxvI6Tklw==}
 
-  ohash@2.0.10:
-    resolution: {integrity: sha512-jf9szh2McTXpXGqejbfHxy4wcs6CXc6MShfzLIdHuCrl2W3qG49qutlOMq1Bdmvpv3s/XJffTu4ElRBPtIOncQ==}
+  ohash@2.0.11:
+    resolution: {integrity: sha512-RdR9FQrFwNBNXAr4GixM8YaRZRJ5PUWbKYbE5eOsrwAjJW0q2REGcf79oYPsLyskQCZG1PLN+S/K1V00joZAoQ==}
 
   open@10.1.0:
     resolution: {integrity: sha512-mnkeQ1qP5Ue2wd+aivTD3NHd/lZ96Lu0jgf0pwktLPtx6cTZiH7tyeGRRHs0zX0rbrahXPnXlUnbeXyaBBuIaw==}
@@ -3088,7 +3088,7 @@ snapshots:
       exsolve: 1.0.1
       giget: 2.0.0
       jiti: 2.4.2
-      ohash: 2.0.10
+      ohash: 2.0.11
       pathe: 2.0.3
       perfect-debounce: 1.0.0
       pkg-types: 2.1.0
@@ -4323,7 +4323,7 @@ snapshots:
       node-fetch-native: 1.6.6
       ufo: 1.5.4
 
-  ohash@2.0.10: {}
+  ohash@2.0.11: {}
 
   open@10.1.0:
     dependencies:
