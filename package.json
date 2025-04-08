@@ -123,7 +123,7 @@
     "test": "tsc --noEmit --skipLibCheck"
   },
   "dependencies": {
-    "c12": "3.0.2",
+    "c12": "3.0.3",
     "citty": "0.1.6",
     "consola": "3.4.2",
     "defu": "6.1.4",
