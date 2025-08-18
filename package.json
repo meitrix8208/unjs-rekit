@@ -144,6 +144,6 @@
     "changelogen": "0.6.2",
     "eslint": "9.33.0",
     "typescript": "5.9.2",
-    "unbuild": "3.6.0"
+    "unbuild": "3.6.1"
   }
 }
